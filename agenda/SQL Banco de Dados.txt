@@ -1,0 +1,18 @@
+-- Table: public.agenda
+
+-- DROP TABLE public.agenda;
+
+CREATE TABLE public.agenda
+(
+  id integer NOT NULL,
+  nome character varying(40),
+  datanascimento character varying(10),
+  telefone character varying(15),
+  email character varying(50),
+  CONSTRAINT id PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.agenda
+  OWNER TO postgres;
