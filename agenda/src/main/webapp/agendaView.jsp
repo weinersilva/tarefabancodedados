@@ -7,7 +7,7 @@
 <title>Cadastro de Contato</title>
 </head>
 <body>
-<br><br><br><br>
+<br><br><br>
 	<div align="center" class="panel panel-default">
 		<div class="panel-body">
 		<form class="form-horizontal" method="post" action="AgendaServletController">
